@@ -36,26 +36,32 @@
 // [3, 7, 23, 12] -> 19                                       
 // [-4, -6, 89, 6] -> 0
 
-// int[] arr = new int[10];                                         // Задали массив из 10 чисел.
-// int sum = 0;                                                     // переменная sum.
-// int count = 0;                                          
-// void FillArray()                                                // метод заполнения массива рандомными числами.
+// Console.WriteLine("Введите диапозон от min до max ");
+// int minSize = int.Parse(Console.ReadLine());
+// int maxSize = int.Parse(Console.ReadLine());
+// Console.WriteLine("Введите размаер массива ");
+// int arrsize = int.Parse(Console.ReadLine());
+// int[] arr = new int[arrsize];
+// int sum = 0;
+// int count = 0;
+// void FillArray()
 // {
 //     for (int i = 0; i < arr.Length; i++)
 //     {
-//         arr[i] = new Random().Next(0, 20);
+//         arr[i] = new Random().Next(minSize, maxSize);
 //         Console.Write($"{arr[i]} ");
+
 //     }
 
 // }
-// void PrintSum()                                                // считаем и выводим сумму на экран 
+// void PrintSum()
 // {
 //     while (count < arr.Length)
 //     {
 //         sum += arr[count];
 //         count = count + 2;
 //     }
-//      Console.Write($"\nCумма чисел на не четных позициях = {sum}");
+//     Console.Write($"\nCумма чисел на не четных позициях = {sum}");
 // }
 
 // Console.WriteLine("Сгенерированный массив: ");
