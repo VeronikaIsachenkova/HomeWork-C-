@@ -43,7 +43,7 @@
 // int arrsize = int.Parse(Console.ReadLine());
 // int[] arr = new int[arrsize];
 // int sum = 0;
-// int count = 0;
+// int count = 1;
 // void FillArray()
 // {
 //     for (int i = 0; i < arr.Length; i++)
